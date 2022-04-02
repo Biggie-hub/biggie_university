@@ -1,0 +1,151 @@
+p{
+    justify-content: center;
+    font-style: ;
+}
+
+body{
+    background-color: ghostwhite;
+}
+
+header{
+    background-color: #e8e8e8;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 5px #888888;
+    padding-bottom: 30px;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+.container img{
+    width: auto;
+    height: 100%;
+}
+
+.container p{
+    justify-items: center;
+    font-style: italic;
+}
+
+.nav_menu {
+    list-style: none;
+    margin: 0%;
+}
+
+.nav_menu li {
+    min-width: 8em;
+    float: right;
+    margin-right: 0.5em;
+    text-align: center;
+}
+
+.nav_menu li a:link,
+.nav_menu li a:visited {
+    background-color: aqua;
+    display: block;
+    padding: 0.2em;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0 0.2em 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+}
+
+.nav_menu li a:hover {
+    background-color: aquamarine;
+    -webkit-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    transform: scale(2,2);
+}
+
+.nav_menu a {
+    display: block;
+    width: 80px;
+}
+
+.clear {
+    clear: both;
+}
+
+#logo {
+    max-width: 100%;
+    height: 10pc;
+    display: flex;
+    justify-items: end;
+}
+
+#welcomeDiv{
+    background-color:#e8e8e8;
+    float: left;
+    width: 70%;
+    margin-right: 20px;
+    padding: 15px;
+    margin-left: 10px;
+    box-shadow: 10px 10px 5px #888888
+}
+
+.leftdiv{
+    background-color: #e8e8e8;
+    float: left;
+    width: 40%;
+    height: 300px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #888888
+}
+
+.rightdiv{
+    background-color: #e8e8e8;
+    float: right;
+    width: 40%;
+    height: 250px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #888888
+}
+
+.gallerydiv_l{
+    background-color: #e8e8e8;
+    float: left;
+    width: 45%;
+    height: 300px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #888888
+}
+
+.gallerydiv_r{
+    background-color: #e8e8e8;
+    float: right;
+    width: 45%;
+    height: 300px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #888888
+}
+
+.gallerydiv_l img{
+    width: 100%;
+    height: 100%;
+}
+
+.gallerydiv_r img{
+    width: 100%;
+    height: 100%;
+}
+
+.coursesdiv_l{
+    background-color: #e8e8e8;
+    float: left;
+    width: 45%;
+    height: 50pc;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #888888
+}
